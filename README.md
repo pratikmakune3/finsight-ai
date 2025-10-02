@@ -2,6 +2,8 @@
 
 A Streamlit app that answers questions about Finance and Stock Trading PDFs using Retrieval-Augmented Generation (RAG). It indexes the PDFs locally with ChromaDB, embeds chunks using Hugging Face embeddings, retrieves relevant context for each query, and generates answers via Groq LLMs. The app includes conversational memory so it can reference the ongoing chat.
 
+![App Demo](./assets/app-demo.png)
+
 ### Features
 
 - **RAG over PDFs**: Uses `Chroma` vector store with persistent storage.
