@@ -1,0 +1,11 @@
+streamlit>=1.33
+langchain>=0.2
+langchain-core>=0.2
+langchain-community>=0.2
+chromadb>=0.5
+tiktoken
+pypdf
+python-dotenv
+sentence-transformers
+langchain-groq
+numpy>=1.26

@@ -1,0 +1,26 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+
+# Environment & secrets
+.env
+.env.*
+
+# Streamlit cache/config
+.streamlit/
+.cache/
+
+# Chroma vector DB (default persist dir)
+chroma_db/
+
+# Data (avoid committing large PDFs)
+data/*.pdf
+
